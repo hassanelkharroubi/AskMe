@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".espace_prof">
+    <ImageView
+        android:id="@+id/image_message"
+        android:src="@drawable/images"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:contentDescription="@android:string/no" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_message"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="42dp"
+        android:drawableLeft="@drawable/adb"
+        android:ems="20"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/adb"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="33dp"
+        android:drawableLeft="@drawable/lock"
+        android:ems="20"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:drawableStart="@drawable/lock" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:text="@string/login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:text="@string/log_here"/>
+
+</RelativeLayout>

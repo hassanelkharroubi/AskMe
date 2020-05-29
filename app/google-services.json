@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "528771072352",
+    "firebase_url": "https://ask-me-91e8f.firebaseio.com",
+    "project_id": "ask-me-91e8f",
+    "storage_bucket": "ask-me-91e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528771072352:android:fd106998c7a48ffb81de05",
+        "android_client_info": {
+          "package_name": "slimane.hafid.ma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528771072352-2b6e61mm69gtfatd0kroq1ieaqfid9b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "slimane.hafid.ma",
+            "certificate_hash": "c566445ee36ccd36cac123714bf0c9f8deb41790"
+          }
+        },
+        {
+          "client_id": "528771072352-6vrii1a8d9n936uc8kb4h6esj201g59n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD-_Zkvwtkw0V6bJY-lmMbtaoqzFxgW_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528771072352-6vrii1a8d9n936uc8kb4h6esj201g59n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

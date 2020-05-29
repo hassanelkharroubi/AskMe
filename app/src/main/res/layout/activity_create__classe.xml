@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Create_Classe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+    <ImageView
+        android:id="@+id/image_add_classe"
+        android:src="@drawable/images"
+        android:layout_marginTop="70dp"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:contentDescription="@android:string/no" />
+
+    <EditText
+        android:id="@+id/classe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/personne"
+        android:ems="20"
+        android:hint="@string/classe_name"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/personne"
+        android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/classe_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/lock"
+            android:drawableLeft="@drawable/personne"
+            android:ems="20"
+            android:hint="@string/classe_password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <Button
+        android:id="@+id/button_classe_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="@string/create_classe" />
+        <Button
+            android:id="@+id/button_classe_add_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:text="@string/cancel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:text="@string/create_classe_here"/>
+</LinearLayout>
+
+</RelativeLayout>

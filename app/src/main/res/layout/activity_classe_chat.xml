@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".classeChatActivity">
+
+
+    <ScrollView
+        android:id="@+id/my_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myLinearLayout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            >
+
+
+            <TextView
+                android:id="@+id/classe_chat_text_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="60dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <EditText
+            android:id="@+id/input_classe_message"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_message"
+            android:padding="17dp"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+        <ImageButton
+            android:id="@+id/send_message_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send"
+            android:contentDescription="@android:string/no" />
+    </LinearLayout>
+</RelativeLayout>

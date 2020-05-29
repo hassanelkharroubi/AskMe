@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/logout"
+      android:title="@string/logout"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/Create_Classe"
+      android:title="@string/create_classe"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/Create_Professeur"
+      android:title="@string/create_professeur"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/Delete_Professeur"
+      android:title="@string/delete_professeur"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/Add_QCM"
+      android:title="@string/ajouter_qcm"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/liste_scores"
+      android:title="Liste Scores"
+      app:showAsAction="never"/>
+
+</menu>

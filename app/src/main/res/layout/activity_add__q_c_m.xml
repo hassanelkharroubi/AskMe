@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DF1A1A"
+    android:layout_height="match_parent"
+    tools:context=".Add_QCM">
+
+    <TextView
+        android:id="@+id/TXT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:text="Question:"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"/>
+
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TXT1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"
+        android:hint="                                     Qestion"/>
+    <EditText
+        android:id="@+id/rep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="6dp"
+        android:hint="                                     Reponse 1"/>
+    <EditText
+        android:id="@+id/rep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rep1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"
+        android:hint="                                     Reponse 2"/>
+    <EditText
+        android:id="@+id/rep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rep2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"
+        android:hint="                                     Reponse 3"/>
+    <EditText
+        android:id="@+id/rep4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rep3"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"
+        android:hint="                                     Reponse 4"/>
+<Button
+    android:id="@+id/btn_QCM"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/rep4"
+    android:layout_marginTop="0dp"
+    android:text="Ajouter Question"
+    android:background="#FFC107"/>
+    <Button
+        android:id="@+id/btn_QCM_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_QCM"
+        android:layout_marginTop="10dp"
+        android:text="Cancel"
+        android:background="#FFC107"/>
+    <EditText
+        android:id="@+id/pass_QCM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_QCM_cancel"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+        android:hint=" Password"/>
+</RelativeLayout>

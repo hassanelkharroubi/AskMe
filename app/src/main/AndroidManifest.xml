@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="slimane.hafid.ma">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+        <activity android:name=".Scores_password" />
+        <activity android:name=".liste_scores" />
+        <activity android:name=".Score" />
+        <activity android:name=".Answer" />
+        <activity android:name=".Password_QCM" />
+        <activity android:name=".Add_QCM" />
+        <activity android:name=".DeleteClasse" />
+        <activity android:name=".Password_verification" />
+        <activity android:name=".Create_Prof" />
+        <activity android:name=".Create_Classe" />
+        <activity android:name=".classeChatActivity" />
+        <activity android:name=".espace_prof1" />
+        <activity android:name=".espace_prof" />
+        <activity android:name=".espace_etud" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
